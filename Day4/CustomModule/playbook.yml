@@ -1,0 +1,9 @@
+- name: Demonstrate use of custom ansible module
+  hosts: all
+  tasks:
+   - name: Invoke our custom module
+     add: first=100 second=200
+     register: output
+
+   - name: Print the result
+     debug: var=output

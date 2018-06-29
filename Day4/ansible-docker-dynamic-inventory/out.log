@@ -1,0 +1,232 @@
+Using /root/DevOps/Day4/ansible-docker-dynamic-inventory/ansible.cfg as config file
+Loaded callback minimal of type stdout, v2.0
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2004)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2004 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'mkdir -p "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.88-14389997087723 )" && echo "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.88-14389997087723 )"'
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2000)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2000 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'mkdir -p "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.88-49902799969120 )" && echo "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.88-49902799969120 )"'
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2001)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2001 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'mkdir -p "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.88-176188589998340 )" && echo "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.88-176188589998340 )"'
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2002)
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2003)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2002 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'mkdir -p "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.89-216286771860917 )" && echo "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.89-216286771860917 )"'
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2003 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'mkdir -p "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.89-50382584677424 )" && echo "$( echo $HOME/.ansible/tmp/ansible-tmp-1530183761.89-50382584677424 )"'
+<localhost> PUT /tmp/tmpZHYyP4 TO /root/.ansible/tmp/ansible-tmp-1530183761.88-14389997087723/ping
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2004)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set scp_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC scp -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2004 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r /tmp/tmpZHYyP4 '[localhost]:/root/.ansible/tmp/ansible-tmp-1530183761.88-14389997087723/ping'
+<localhost> PUT /tmp/tmpWTLqx1 TO /root/.ansible/tmp/ansible-tmp-1530183761.88-49902799969120/ping
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2000)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set scp_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC scp -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2000 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r /tmp/tmpWTLqx1 '[localhost]:/root/.ansible/tmp/ansible-tmp-1530183761.88-49902799969120/ping'
+<localhost> PUT /tmp/tmp1ZrEiU TO /root/.ansible/tmp/ansible-tmp-1530183761.88-176188589998340/ping
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2001)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set scp_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC scp -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2001 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r /tmp/tmp1ZrEiU '[localhost]:/root/.ansible/tmp/ansible-tmp-1530183761.88-176188589998340/ping'
+<localhost> PUT /tmp/tmpT04Ba1 TO /root/.ansible/tmp/ansible-tmp-1530183761.89-216286771860917/ping
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2002)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set scp_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC scp -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2002 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r /tmp/tmpT04Ba1 '[localhost]:/root/.ansible/tmp/ansible-tmp-1530183761.89-216286771860917/ping'
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2000)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2000 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/.ansible/tmp/ansible-tmp-1530183761.88-49902799969120/ping; rm -rf "/root/.ansible/tmp/ansible-tmp-1530183761.88-49902799969120/" > /dev/null 2>&1'
+<localhost> PUT /tmp/tmpgdo0Vh TO /root/.ansible/tmp/ansible-tmp-1530183761.89-50382584677424/ping
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2003)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set scp_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC scp -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2003 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r /tmp/tmpgdo0Vh '[localhost]:/root/.ansible/tmp/ansible-tmp-1530183761.89-50382584677424/ping'
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2004)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2004 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/.ansible/tmp/ansible-tmp-1530183761.88-14389997087723/ping; rm -rf "/root/.ansible/tmp/ansible-tmp-1530183761.88-14389997087723/" > /dev/null 2>&1'
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2001)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2001 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/.ansible/tmp/ansible-tmp-1530183761.88-176188589998340/ping; rm -rf "/root/.ansible/tmp/ansible-tmp-1530183761.88-176188589998340/" > /dev/null 2>&1'
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2002)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2002 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/.ansible/tmp/ansible-tmp-1530183761.89-216286771860917/ping; rm -rf "/root/.ansible/tmp/ansible-tmp-1530183761.89-216286771860917/" > /dev/null 2>&1'
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_HOST_KEY_CHECKING/host_key_checking disabled: (-o)(StrictHostKeyChecking=no)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2003)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o Port=2003 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/.ansible/tmp/ansible-tmp-1530183761.89-50382584677424/ping; rm -rf "/root/.ansible/tmp/ansible-tmp-1530183761.89-50382584677424/" > /dev/null 2>&1'
+172.17.0.2 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}
+172.17.0.3 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}
+172.17.0.6 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}
+172.17.0.5 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}
+172.17.0.4 | SUCCESS => {
+    "changed": false, 
+    "invocation": {
+        "module_args": {
+            "data": null
+        }, 
+        "module_name": "ping"
+    }, 
+    "ping": "pong"
+}

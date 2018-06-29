@@ -1,0 +1,7 @@
+- name: This playbook will install vim on training nodes
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install vim
+      apt: name=vim state=latest update_cache=yes
+  

@@ -1,0 +1,56 @@
+Using /etc/ansible/ansible.cfg as config file
+Loaded callback minimal of type stdout, v2.0
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2002)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o Port=2002 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'mkdir -p "$( echo $HOME/.ansible/tmp/ansible-tmp-1530079201.42-245516509816158 )" && echo "$( echo $HOME/.ansible/tmp/ansible-tmp-1530079201.42-245516509816158 )"'
+<localhost> ESTABLISH SSH CONNECTION FOR USER: root
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2003)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set ssh_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC ssh -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o Port=2003 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r -tt localhost 'mkdir -p "$( echo $HOME/.ansible/tmp/ansible-tmp-1530079201.43-140421807636167 )" && echo "$( echo $HOME/.ansible/tmp/ansible-tmp-1530079201.43-140421807636167 )"'
+<localhost> PUT /tmp/tmpPGYYOM TO /root/.ansible/tmp/ansible-tmp-1530079201.42-245516509816158/ping
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2002)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set sftp_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC sftp -b - -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o Port=2002 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r '[localhost]'
+<localhost> PUT /tmp/tmpgGsVPw TO /root/.ansible/tmp/ansible-tmp-1530079201.43-140421807636167/ping
+<localhost> SSH: ansible.cfg set ssh_args: (-o)(ControlMaster=auto)(-o)(ControlPersist=60s)
+<localhost> SSH: ANSIBLE_REMOTE_PORT/remote_port/ansible_port set: (-o)(Port=2003)
+<localhost> SSH: ANSIBLE_PRIVATE_KEY_FILE/private_key_file/ansible_ssh_private_key_file set: (-o)(IdentityFile="/root/.ssh/id_rsa")
+<localhost> SSH: ansible_password/ansible_ssh_pass not set: (-o)(KbdInteractiveAuthentication=no)(-o)(PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey)(-o)(PasswordAuthentication=no)
+<localhost> SSH: ANSIBLE_REMOTE_USER/remote_user/ansible_user/user/-u set: (-o)(User=root)
+<localhost> SSH: ANSIBLE_TIMEOUT/timeout set: (-o)(ConnectTimeout=10)
+<localhost> SSH: PlayContext set ssh_common_args: ()
+<localhost> SSH: PlayContext set sftp_extra_args: ()
+<localhost> SSH: found only ControlPersist; added ControlPath: (-o)(ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r)
+<localhost> SSH: EXEC sftp -b - -C -vvv -o ControlMaster=auto -o ControlPersist=60s -o Port=2003 -o 'IdentityFile="/root/.ssh/id_rsa"' -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o User=root -o ConnectTimeout=10 -o ControlPath=/root/.ansible/cp/ansible-ssh-%h-%p-%r '[localhost]'
+centos1 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH Error: data could not be sent to the remote host. Make sure this host can be reached over ssh", 
+    "unreachable": true
+}
+centos2 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "ERROR! SSH Error: data could not be sent to the remote host. Make sure this host can be reached over ssh", 
+    "unreachable": true
+}

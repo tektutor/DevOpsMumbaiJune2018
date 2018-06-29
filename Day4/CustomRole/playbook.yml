@@ -1,0 +1,4 @@
+- name: Demonstrates use of custom role
+  hosts: all
+  roles:
+    - nginx

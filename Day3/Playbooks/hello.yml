@@ -1,0 +1,2 @@
+- name: Print hello
+  debug: msg="Hello DevOps"

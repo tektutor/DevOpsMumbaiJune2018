@@ -1,0 +1,4 @@
+[all]
+node1 ansible_user=seed ansible_password=seed123 ansible_host=192.168.1.60 ansible_port=22 ansible_become_user=root ansible_become_password=seed123
+node2 ansible_user=seed ansible_password=seed123 ansible_host=192.168.1.83 ansible_port=22 ansible_become_user=root ansible_become_password=seed123
+
